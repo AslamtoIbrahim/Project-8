@@ -68,7 +68,7 @@ button{
     border: none;
     padding: 0.5rem 0 ;
     width: 50%;
-
+    cursor: pointer;
 }
 .sec1 button{
     color: hsl(31, 77%, 52%);
@@ -78,4 +78,17 @@ button{
 }
 .sec3 button{
     color: hsl(179, 100%, 13%);
+}
+
+.sec1 button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.sec2 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+.sec3 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
 }
