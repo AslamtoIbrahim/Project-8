@@ -1,9 +1,81 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
-    
+body {
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca';
+}
+
+.container {
+    display: flex;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.sec1,
+.sec2,
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 15rem;
+    padding: 1.5rem;
+}
+
+img {
+    width: 20%;
+    margin: 1rem 0 0 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    margin: 1rem 0 0 0;
+    color: hsl(0, 0%, 95%);
+}
+
+p{
+    line-height: 1.5rem;
+    color: hsla(0, 0%, 100%, 0.678);
+    margin: 1rem 0;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.sec1{
+    background-color: hsl(31, 77%, 52%);
+}
+.sec2{
+    background-color: hsl(184, 100%, 22%);
+}
+.sec3{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button{
+    margin: 2.5rem 0 1rem 0;
+    border-radius: 1rem;
+    border: none;
+    padding: 0.5rem 0 ;
+    width: 50%;
+
+}
+.sec1 button{
+    color: hsl(31, 77%, 52%);
+}
+.sec2 button{
+    color: hsl(184, 100%, 22%);
+}
+.sec3 button{
+    color: hsl(179, 100%, 13%);
 }
